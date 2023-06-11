@@ -1,7 +1,7 @@
 import sys
-# import time
+# import date
 # class bank:
-#     name = "state bank of India"
+#     name = "icici"
 #     acc = "XXXXXXXX595"
 #     def __init__(self,minimum_balance = 1000,avl_bal = 5000):
 #         self.Minimum = minimum_balance
