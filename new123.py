@@ -3,7 +3,7 @@ import os
 # from pyspark.sql.functions import col, regexp_replace
 # from pyspark.sql.types import StringType
 
-os.environ['PYSPARK_PYTHON'] = 'python'
+# os.environ['PYSPARK_PYTHON'] = 'python'
 # import pyspark
 # from pyspark.sql import SparkSession
 # spark = SparkSession.builder.appName("SparkByExample.com").getOrCreate()
