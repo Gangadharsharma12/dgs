@@ -93,23 +93,22 @@ os.environ['PYSPARK_PYTHON'] = 'python'
 # print(df1.printSchema())
 # ---------------------------------------------------------------------------------------------------------------------
 
-# filter()
-# print("welcome")
-
-# import pyspark
-# from pyspark.sql import SparkSession
-# from pyspark.sql.types import StructType, StructField
-# from pyspark.sql.types import StringType, ArrayType
-# from pyspark.sql.functions import col
-# spark = SparkSession.builder.appName("sparkByExample").getOrCreate()
-# data = [
-#     (("James", "", "Smith"), ["Java", "Scala", "C++"], "OH", "M"),
-#     (("Anna", "Rose", ""), ["Spark", "Java", "C++"], "NY", "F"),
-#     (("Julia", "", "Williams"), ["CSharp", "VB"], "OH", "F"),
-#     (("Maria", "Anne", "Jones"), ["CSharp", "VB"], "NY", "M"),
-#     (("Jen", "Mary", "Brown"), ["CSharp", "VB"], "NY", "M"),
-#     (("Mike", "Mary", "Williams"), ["Python", "VB"], "OH", "M")
-# ]
+filter()
+print("welcome")
+import pyspark
+from pyspark.sql import SparkSession
+from pyspark.sql.types import StructType, StructField
+from pyspark.sql.types import StringType, ArrayType
+from pyspark.sql.functions import col
+spark = SparkSession.builder.appName("sparkByExample").getOrCreate()
+data = [
+    (("James", "", "Smith"), ["Java", "Scala", "C++"], "OH", "M"),
+    (("Anna", "Rose", ""), ["Spark", "Java", "C++"], "NY", "F"),
+    (("Julia", "", "Williams"), ["CSharp", "VB"], "OH", "F"),
+    (("Maria", "Anne", "Jones"), ["CSharp", "VB"], "NY", "M"),
+    (("Jen", "Mary", "Brown"), ["CSharp", "VB"], "NY", "M"),
+    (("Mike", "Mary", "Williams"), ["Python", "VB"], "OH", "M")
+]
 #
 # schema = StructType([
 #     StructField('fullname', StructType([
